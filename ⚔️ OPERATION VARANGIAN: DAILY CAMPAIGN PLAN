@@ -1,821 +1,167 @@
-⚔️ OPERATION VARANGIAN: DAILY CAMPAIGN PLAN
+⚔️ OPERATION VARANGIAN: GRAND STRATEGY (v3)
 
-Operator: Rip
-Duration: 28 Weeks (Phase 0 - Phase 7)
-Status: ACTIVE
+Commander: Rip
+Mission: Build a Full-Stack Tech Firm from Zero.
+Current Status: PHASE 1 (Active)
 
-🛡️ PHASE 0: INDOC (Weeks 1-2)
+🛡️ PHASE 0: INDOC (The Foundation)
 
-Objective: Survival in the Linux Environment.
-Key Terrain: Fedora 43, Cosmic Terminal, Vim.
+Tech: Fedora, Bash/Zsh, Vim.
 
-WEEK 1: RIGGING THE LONGSHIP (Environment)
+💰 THE MERCENARY BRIEF (Monetization)
 
-Weekly Goal: Configure the workstation and master the terminal without a mouse.
+Immediate Income: "Linux System Administration."
 
-The Strategy:
-You cannot build high-performance software if you are fighting your own computer. We disable the mouse to force your brain to build a spatial map of the file system using text commands. This is how servers are managed.
+The Pitch: "I can fix your broken server, secure your SSH keys, and automate your backups."
 
-Intel Drop (Resources):
+Target: Small businesses running WordPress on a cheap VPS who are terrified of the terminal.
 
-YouTube: NetworkChuck - "Linux for Hackers" (Series).
+👮 THE OFFICER'S BRIEF (Leadership & Hiring)
 
-YouTube: ThePrimeagen - "Vim As Your Editor".
+Role to Hire: Sysadmin / Junior DevOps.
 
-Udemy: Linux Command Line Basics (Any highly rated course, or just stick to YouTube for this week).
+The Test: Give them a broken laptop. Tell them to install Fedora and clone a repo using only the terminal. If they reach for the mouse, fail them.
 
-Day 1 (Mon): System Setup
+Your Order: "Keep the fleet running. If a server goes down, I want it back up before I even know it crashed."
 
-Task: Install Fedora 43 (Cosmic Spin).
+🪓 PHASE 1: THE AXE (Engineering Dept)
 
-Action: Run system updates: sudo dnf upgrade --refresh.
+Tech: Svelte 5 (Front), Rust (Back), SQL (Data), Tauri (Desktop).
 
-Action: Install the Varangian Kit (Rust, Go, Node, VS Code).
+💰 THE MERCENARY BRIEF
 
-Why: Fedora is "Bleeding Edge." We update immediately to ensure we aren't patching security holes that were fixed yesterday.
+The Hustle: "High-Performance Apps & Data Sovereignty."
 
-Drill: Set up the Operation-Varangian directory structure.
+The Pitch: "Stop using messy Excel sheets. I build secure, offline-capable desktop apps (Tauri) that structure your data in a real SQL database (SQLite) so you never lose a client record."
 
-Day 2 (Tue): Navigation Drill (No Mouse)
+Product Idea: "The Industry-Specific CRM." Pick a niche (e.g., Roofing, Dental). Build a super-fast Rust app that works without internet.
 
-Concept: Absolute vs Relative paths.
+👮 THE OFFICER'S BRIEF
 
-Why: In a server environment (SSH), there is no "File Explorer." You must know where you are blind.
+Role to Hire: Head of Engineering / Lead Architect.
 
-Task: Open Terminal. Create 10 folders named Sector_1 to Sector_10.
+The Trait: Obsessive about "Safety" and "Data Integrity."
 
-Drill: Move a file from Sector_1 to Sector_10 using only mv.
+The Training: Hand them SOP-RUST-ERRORS.md. Ask them to explain "SQL Injection" and how Rust's sqlx crate prevents it at compile time.
 
-Drill: Delete all odd-numbered folders using rm.
+Your Order: "The Database is the Truth. If the code corrupts the data, the company dies. Ensure strict types from the frontend all the way to the disk."
 
-Day 3 (Wed): The Rifle (Vim Basics)
+🗡️ PHASE 2: THE SCIMITAR (Security & Network)
 
-Task: Run vimtutor.
+Tech: Go (Golang), Nmap, Wireshark.
 
-Why: Vim is available on every server in the world. It allows you to edit text at the speed of thought.
+💰 THE MERCENARY BRIEF
 
-Drill: Complete Lesson 1 & 2.
+The Hustle: "API Performance Audits" & "Penetration Testing."
 
-Key Skill: Movement (h j k l). Deletion (x, dd). Insert (i).
+The Pitch: "I can test your network for holes (Red Team) and rewrite your slow Python backend in Go to handle 10x the traffic (Dev)."
 
-Output: Create a file vim_notes.txt using only Vim.
+Product Idea: "The Sentinel." A Go-based microservice that sits in front of a client's website and blocks scrapers/bots at lightning speed.
 
-Day 4 (Thu): Rank & File (Permissions)
+👮 THE OFFICER'S BRIEF
 
-Concept: Users, Groups, and chmod.
+Role to Hire: Head of Security (CISO) / Backend Lead.
 
-Why: Linux creates files as "Non-Executable" by default to prevent viruses. You must manually authorize a script to run.
+The Trait: Paranoid. Cynical. Loves breaking things.
 
-Task: Create a script hello.sh. Try to run it (./hello.sh) -> It fails (Permission Denied).
+The Training: Have them hack your code. If they find a flaw you missed, hire them instantly.
 
-Action: Run chmod +x hello.sh. Run it -> Success.
+Your Order: "Assume we are already breached. Lock down the perimeter. Audit every line of code the Engineers write."
 
-Drill: Change ownership of a file using chown.
+📜 PHASE 3: THE SCROLLS (Intelligence)
 
-Day 5 (Fri): Watch Standing (Processes)
+Tech: Python, Ollama (Local AI), Vector DBs.
 
-Concept: How Linux runs programs. PID (Process ID).
+💰 THE MERCENARY BRIEF
 
-Why: When your app crashes or hangs, you need to assassinate it surgically without rebooting the whole machine.
+The Hustle: "AI Automation Agency." (Extremely hot market).
 
-Task: Run top or htop. Identify the Process ID (PID) of Firefox.
+The Pitch: "I will build a private AI that reads your company PDF documents and answers employee questions instantly. No data leaves your office (Local AI)."
 
-Drill: Kill Firefox from the terminal using kill -9 [PID]. (The -9 means "Kill immediately, do not wait for cleanup").
+Product Idea: "The Legal Clerk." A local RAG (Retrieval Augmented Generation) app for lawyers that summarizes case files instantly using Ollama.
 
-Day 6 (Sat): RAID - "The Blackout"
+👮 THE OFFICER'S BRIEF
 
-Mission: Spend 4 continuous hours using your computer without touching the mouse.
+Role to Hire: Head of AI / Data Scientist.
 
-Task: Browse the web (use keyboard shortcuts), manage files, write notes.
+The Trait: Creative but logical. Speaks "Math."
 
-Constraint: If you touch the mouse, do 10 pushups.
+The Training: Show them your Python scripts. Ask them to optimize the prompt engineering.
 
-Day 7 (Sun): AAR & SOPs
+Your Order: "Turn our raw data into money. Find patterns I can't see."
 
-Task: Review the week.
+📦 PHASE 4: LOGISTICS (DevOps)
 
-Output: Write SOP-001-FEDORA-SETUP.md in your Logbook repo.
+Tech: Podman, GitHub Actions, CI/CD.
 
-WEEK 2: CARTOGRAPHY (Web Basics)
+💰 THE MERCENARY BRIEF
 
-Weekly Goal: Understand the raw materials of the web (HTML/CSS) before using frameworks.
+The Hustle: "Cloud Cost Reduction Specialist."
 
-The Strategy:
-Svelte and React generate HTML/CSS. If you don't understand the raw output, you cannot debug the generator. We strip away the magic to learn the mechanics.
+The Pitch: "You are spending $500/mo on AWS. I can containerize your app (Podman) and move it to a $50/mo server without losing performance."
 
-Intel Drop (Resources):
+👮 THE OFFICER'S BRIEF
 
-YouTube: Kevin Powell - "Introduction to CSS" (The best CSS teacher on earth).
+Role to Hire: Head of Operations (DevOps Lead).
 
-Udemy: The Complete Web Developer in 2025: Zero to Mastery (Sections on HTML/CSS).
+The Trait: Lazy (in a good way). They should hate doing things twice. They automate everything.
 
-Game: FlexboxFroggy.com & CSSGridGarden.com.
+Your Order: "I want to push one button and have the code deployed to customers globally. Make it happen."
 
-Day 8 (Mon): The Skeleton (HTML)
+🌌 PHASE 8: THE ASCENDANT (Bonus Curriculum)
 
-Concept: Semantic HTML (nav, main, section).
+Objective: Total Mastery of the Tooling.
+Prerequisite: Completion of Phase 1-7.
 
-Why: "Semantic" tags tell search engines (SEO) and screen readers what the content is, not just what it looks like.
+The Philosophy:
+You have conquered the software. Now you conquer the instrument itself. You move from the "Hybrid" (VS Code) to the "Pure" (Neovim).
 
-Task: Write a resume document using only HTML. No styling.
+WEEK 29: THE MIGRATION (Lua Basics)
 
-Check: Does it have <h1>, <ul>, and <p> tags?
+Concept: Neovim is configured in Lua (a scripting language).
 
-Day 9 (Tue): The Uniform (CSS)
+Task: Create init.lua. Print "Hello Varangian" on startup.
 
-Concept: The Box Model (Margin, Border, Padding, Content).
+Drill: Map jk to Escape.
 
-Why: This is the #1 reason layouts break. Padding is inside the border; Margin is outside.
+WEEK 30: THE PACKER (Lazy.nvim)
 
-Task: Style the resume. Add a border to the header. Add padding to the text.
+Concept: Plugin Managers.
 
-Drill: Center a div using margin: 0 auto;.
+Task: Install Lazy.nvim. Use it to install a Color Scheme (Catppuccin or Tokio Night).
 
-Day 10 (Wed): Maneuver (Flexbox)
+WEEK 31: THE INTELLIGENCE (LSP & Treesitter)
 
-Concept: One-dimensional layout (Row or Column).
+Concept: Making Vim smart.
 
-Why: Old web layout (floats) was broken. Flexbox allows items to grow/shrink to fit mobile screens automatically.
+Task: Install nvim-lspconfig. Connect it to rust-analyzer.
 
-Task: Play "Flexbox Froggy" (Levels 1-24).
+Result: You now have auto-complete and error checking inside the terminal.
 
-Drill: Create a navigation bar where the logo is left and links are right using justify-content: space-between.
+WEEK 32: THE TELESCOPE (Fuzzy Finding)
 
-Day 11 (Thu): Heavy Formation (Grid)
+Concept: Navigation without a file tree.
 
-Concept: Two-dimensional layout (Rows AND Columns).
+Task: Install Telescope.
 
-Why: Complex dashboards need strict grids. Flexbox is for components; Grid is for page layout.
+Drill: Find any file in your project by typing 3 letters of its name.
 
-Task: Play "Grid Garden".
+WEEK 33: THE GRANDMASTER
 
-Drill: Create a "Photo Gallery" layout with a 3x3 grid that turns into 1xN on mobile.
+Mission: Uninstall VS Code.
 
-Day 12 (Fri): Intel Gathering (DevTools)
+Task: Code your final feature using only Neovim for one week.
 
-Task: Open Firefox. Press F12.
+Reward: You are now in the top 1% of developers globally.
 
-Why: You can edit any website live. This is how we debug layout issues.
+COMMANDER'S SUMMARY
 
-Drill: Inspect a news website. Change the headline text locally. Delete an ad element from the DOM.
+Rip, this plan does two things:
 
-Day 13 (Sat): RAID - "Unit Intranet"
+It builds your Skill Tree (What you can do).
 
-Mission: Build a static website for a fictional tactical unit.
+It builds your Company Org Chart (Who you will hire).
 
-Reqs: Sidebar navigation (Flexbox), Roster table, Mission Statement.
+Every time you finish a Phase, you are qualified to hire someone to do that job for you, because you know exactly how hard it is.
 
-Tech: HTML & CSS only. No JS.
-
-Day 14 (Sun): AAR & SOPs
-
-Task: Review code.
-
-Output: Write SOP-003-HTML-BOILERPLATE.md.
-
-🪓 PHASE 1: THE AXE (Weeks 3-10)
-
-Objective: Build the Core Product (Rust & Svelte).
-
-WEEK 3: LOGIC (JavaScript Boot Camp)
-
-Weekly Goal: Learn programming logic without the distraction of UI.
-
-The Strategy:
-JavaScript is the "Latin" of the web. Even if you use Rust, you need JS to talk to the browser. We focus on logic (loops/functions) here, not making things pretty.
-
-Intel Drop (Resources):
-
-Udemy: The Complete Web Developer in 2025 (JavaScript Section).
-
-YouTube: Fireship - "JavaScript in 100 Seconds" (For overview).
-
-YouTube: Traversy Media - "JavaScript Crash Course".
-
-Day 15 (Mon): Variables & Types
-
-Concept: let (mutable) vs const (immutable). Strings, Numbers, Booleans.
-
-Why: const prevents bugs by stopping you from changing things that shouldn't change.
-
-Task: Write a script that calculates the area of a circle based on a radius variable.
-
-Day 16 (Tue): Control Flow
-
-Concept: if, else if, else.
-
-Task: Write a "Bouncer" script. If age < 18, print "Deny". If age >= 18, print "Enter".
-
-Day 17 (Wed): Loops
-
-Concept: for loops and while loops.
-
-Task: The "FizzBuzz" Challenge. Count 1-100. Print "Fizz" on multiples of 3, "Buzz" on 5.
-
-Why: This is a classic interview question. It proves you understand modulo operators %.
-
-Day 18 (Thu): Functions
-
-Concept: Input -> Processing -> Output. Arrow Functions () => {}.
-
-Task: Write a function convertTemp(celsius) that returns fahrenheit.
-
-Day 19 (Fri): Data Structures
-
-Concept: Arrays ([]) and Objects ({}).
-
-Why: 99% of data comes in lists or key-value pairs.
-
-Task: Create an array of "Soldier" objects (Name, Rank). Filter the list to find only "Sergeants".
-
-Day 20 (Sat): RAID - "The Calculator"
-
-Mission: Build a CLI script (run with Node.js).
-
-Task: It accepts two numbers and an operator (+, -, *, /) and prints the result.
-
-Constraint: Handle division by zero errors.
-
-Day 21 (Sun): Rest
-
-Task: Study JavaScript "ES6 Syntax" on YouTube (Arrow functions, destructuring).
-
-WEEK 4: THE EDGE (Svelte 5 Basics)
-
-Weekly Goal: Build your first reactive Interface.
-
-The Strategy:
-We choose Svelte because it requires less code than React. It uses "Runes" ($state) which explicitly mark what data changes. This fits our "Systems" mindset: Explicit is better than Implicit.
-
-Intel Drop (Resources):
-
-Udemy: Svelte & SvelteKit: The Complete Guide (Maximilian Schwarzmüller).
-
-YouTube: Joy of Code - "Svelte 5 Runes Crash Course".
-
-Doc: learn.svelte.dev (Interactive Tutorial).
-
-Day 22 (Mon): The Forge
-
-Task: Run npm create svelte@latest. Explore the folder structure.
-
-Drill: Delete App.svelte contents and write "Hello World".
-
-Day 23 (Tue): Runes (Reactivity)
-
-Concept: $state and $derived.
-
-Why: The UI should update automatically when data changes. Runes tell the compiler which data to watch.
-
-Task: Build a counter button. When clicked, the number goes up.
-
-Day 24 (Wed): Events
-
-Concept: onclick, oninput.
-
-Task: Create a text box. As you type, the text appears in a headline below (Mirroring).
-
-Day 25 (Thu): Logic Blocks
-
-Concept: {#if} and {#each}.
-
-Why: To show lists of items or hide secret data.
-
-Task: Create a button "Toggle Visibility" that hides/shows a box.
-
-Day 26 (Fri): Components
-
-Concept: Reusable code.
-
-Why: Don't copy-paste code. Build a "Button" once, use it everywhere.
-
-Task: Create a Card.svelte component. Use it 3 times in App.svelte with different data.
-
-Day 27 (Sat): RAID - "Inventory List"
-
-Mission: Build a web app.
-
-Features: Input box to add item. List showing items. "Delete" button next to each item.
-
-Tech: Svelte 5.
-
-Day 28 (Sun): SOPs
-
-Output: Write SOP-004-SVELTE-BASICS.md.
-
-WEEK 5: ADVANCED FORGING (Svelte Data)
-
-Weekly Goal: Persistence and Polish.
-
-Day 29 (Mon): LocalStorage
-
-Concept: Browser Memory.
-
-Task: Make your Inventory list save to the browser so it's there after refresh.
-
-Day 30 (Tue): JSON Handling
-
-Task: Create a dummy .json file with fake user data. Load it and display it on screen.
-
-Day 31 (Wed): Component Styling
-
-Task: Style the Inventory app. Make it look like a Sci-Fi HUD using CSS Grid.
-
-Day 32 (Thu): Transitions
-
-Concept: transition:fade.
-
-Why: UX (User Experience). Instant disappearance looks like a glitch. Fading looks intentional.
-
-Task: Add transitions to your list items.
-
-Day 33 (Fri): Deployment
-
-Task: Create a Netlify account. Connect GitHub. Deploy your Inventory app to the real internet.
-
-Day 34 (Sat): MILESTONE 1 - "TRIAGE CARD"
-
-Mission: Build the frontend for the Medical Triage app.
-
-Features: Form for Vitals (HR, BP). Visual indicator (Green/Yellow/Red) based on input.
-
-Deliverable: A working Svelte URL.
-
-Day 35 (Sun): Rest
-
-Task: Review the week.
-
-WEEK 6: THE STEEL (Rust Basics)
-
-Weekly Goal: Survive the learning curve.
-
-The Strategy:
-Rust is strict. It forces you to handle every error and manage memory explicitly. We choose it because it eliminates entire categories of bugs (Null Pointers, Race Conditions) that plague other languages.
-
-Intel Drop (Resources):
-
-Udemy: Ultimate Rust Crash Course (Nathan Stocks).
-
-YouTube: Let's Get Rusty.
-
-Book: The Rust Programming Language (Chapter 1-3).
-
-Day 36 (Mon): The Foundry
-
-Task: cargo new rust_training.
-
-Concept: cargo run, cargo build, cargo check.
-
-Why: Cargo is your Quartermaster. It handles building, testing, and dependencies.
-
-Day 37 (Tue): Variables
-
-Concept: Immutability by default. let vs let mut.
-
-Why: Rust assumes data shouldn't change unless you explicitly say so. This prevents accidental bugs.
-
-Task: Write a program that tries to change a variable and fails. Fix it.
-
-Day 38 (Wed): Types
-
-Concept: i32, f64, bool, char. Static typing.
-
-Task: Create a "Math" function that adds two i32 integers.
-
-Day 39 (Thu): Control Flow
-
-Concept: if as an expression (it returns a value). loop, while, for.
-
-Task: Rewrite FizzBuzz in Rust.
-
-Day 40 (Fri): Ownership I (The Stack)
-
-Concept: Stack vs Heap. Copy types.
-
-Why: This is unique to Rust. You must understand where data lives in memory to use Rust effectively.
-
-Task: Read Chapter 4 of The Rust Book.
-
-Day 41 (Sat): RAID - "Temp Converter CLI"
-
-Mission: Build a CLI tool in Rust.
-
-Task: User inputs "32 F", program outputs "0 C".
-
-Constraint: Use std::io to read input.
-
-Day 42 (Sun): SOPs
-
-Output: Write SOP-005-RUST-SETUP.md.
-
-WEEK 7: THE GRIP (Ownership & Borrowing)
-
-Weekly Goal: Conquer the Borrow Checker.
-
-The Strategy:
-This is "The Hill." Most people quit here. We push through. The rule is simple: Data can have One Owner, Many Readers, or One Writer. Never both readers and writers at the same time.
-
-Day 43 (Mon): Ownership II (The Heap)
-
-Concept: String type. Move semantics.
-
-Drill: Create a String, pass it to a function, try to use it again (Fail).
-
-Day 44 (Tue): References
-
-Concept: Borrowing (&). Immutable references.
-
-Why: Moving data is destructive. Borrowing lets us look at data without taking it.
-
-Drill: Pass a reference to a function.
-
-Day 45 (Wed): Mutable References
-
-Concept: &mut. The "One Writer" rule.
-
-Drill: Modify a String inside a different function using a mutable reference.
-
-Day 46 (Thu): Slices
-
-Concept: References to part of a collection. &str.
-
-Task: Write a function that returns the first word of a sentence.
-
-Day 47 (Fri): Structs
-
-Concept: Custom data types.
-
-Task: Create a Marine struct with fields: name, rank, mos.
-
-Day 48 (Sat): RAID - "Roster System"
-
-Mission: CLI Tool.
-
-Task: Use a Vector (Vec<Marine>) to store a squad. Functions to add a marine and list all marines.
-
-Constraint: Must pass the vector by reference to the list function.
-
-Day 49 (Sun): Rest
-
-Task: Recover mental energy.
-
-WEEK 8: SAFETY (Error Handling)
-
-Weekly Goal: Write code that never crashes.
-
-Day 50 (Mon): Enums
-
-Concept: Defining states. enum IpAddr { V4, V6 }.
-
-Task: Use match to handle different enum variants.
-
-Day 51 (Tue): Option Enum
-
-Concept: Some(T) vs None. Replacing null.
-
-Why: "Null" caused a billion dollars in bugs. Rust doesn't have Null. It has Option. You must handle the "None" case.
-
-Task: Write a function that might return a value. Handle the None case.
-
-Day 52 (Wed): Result Enum
-
-Concept: Ok(T) vs Err(E).
-
-Task: Write a division function that returns Err if dividing by zero.
-
-Day 53 (Thu): The ? Operator
-
-Concept: Propagating errors up the chain.
-
-Task: Refactor previous code to use ?.
-
-Day 54 (Fri): HashMaps
-
-Concept: Key-Value storage.
-
-Task: Count the frequency of words in a text string using a HashMap.
-
-Day 55 (Sat): RAID - "Safe Calculator"
-
-Mission: Rebuild the Week 20 JS Calculator in Rust.
-
-Constraint: It must NEVER panic. All errors (bad input, div by zero) must print a nice message.
-
-Day 56 (Sun): SOPs
-
-Output: Write SOP-006-RUST-ERRORS.md.
-
-WEEK 9: REACH (I/O & Crates)
-
-Weekly Goal: Talk to the file system and use external libraries.
-
-Day 57 (Mon): File System
-
-Concept: std::fs.
-
-Task: Write a program that creates a file log.txt and writes "Hello" to it.
-
-Day 58 (Tue): Reading Files
-
-Task: Read log.txt back into a String and print it to the console.
-
-Day 59 (Wed): Crates.io
-
-Concept: Cargo.toml.
-
-Task: Add the chrono crate. Print the current UTC timestamp.
-
-Day 60 (Thu): Serialization (Serde)
-
-Concept: JSON in Rust. serde crate.
-
-Task: Convert your Marine struct to JSON and save it to a file.
-
-Day 61 (Fri): CLI Arguments
-
-Concept: clap crate.
-
-Task: Accept command line args like ./app --name "Rip".
-
-Day 62 (Sat): MILESTONE 2 - "SECURE LOG"
-
-Mission: Build a CLI Journal.
-
-Features: User types a message. App adds timestamp. App encrypts it (Caesar cipher is fine). App appends it to journal.txt.
-
-Deliverable: A working Rust binary.
-
-Day 63 (Sun): Rest
-
-Task: Review.
-
-WEEK 10: THE STRIKE (Tauri / Desktop)
-
-Weekly Goal: Combine Rust and Svelte into a native app.
-
-Intel Drop (Resources):
-
-YouTube: "Tauri 2.0 Crash Course".
-
-Docs: Tauri.app.
-
-Day 64 (Mon): Tauri Setup
-
-Task: npm create tauri-app. Combine Svelte 5 + Rust.
-
-Drill: Run the "Hello World" default app.
-
-Day 65 (Tue): Commands
-
-Concept: Frontend calling Backend.
-
-Task: Write a Rust function greet(). Call it from Svelte using invoke.
-
-Day 66 (Wed): Passing Data
-
-Task: Send a form input (Name) from Svelte to Rust. Have Rust return "Welcome, [Name]".
-
-Day 67 (Thu): File Access via Tauri
-
-Task: Use the Rust backend to save a file to the Desktop (bypassing browser sandbox).
-
-Day 68 (Fri): Styling
-
-Task: Make the window frameless and dark mode.
-
-Day 69 (Sat): CAPSTONE 1 - "DESKTOP TRIAGE"
-
-Mission: Port your Week 34 Triage App into Tauri.
-
-Upgrade: Instead of LocalStorage, save patient data to a real JSON file on the hard drive using Rust.
-
-Deliverable: A compiled .rpm or executable file.
-
-Day 70 (Sun): PHASE 1 COMPLETE
-
-Status: You are now an Engineer.
-
-🗡️ PHASE 2: THE SCIMITAR (Weeks 11-16)
-
-Objective: Networking, Speed, and Security (Go).
-
-WEEK 11: SPEED (Go Syntax)
-
-Weekly Goal: Learn Go fast (it's easier than Rust).
-
-The Strategy:
-Go is built for networking. Where Rust is complex, Go is brutally simple. We use it for anything that needs to handle 10,000 connections at once.
-
-Intel Drop (Resources):
-
-Udemy: Go: The Complete Developer's Guide (Golang) (Stephen Grider).
-
-YouTube: Anthony GG (Best Go projects).
-
-Day 71 (Mon): Setup
-
-Task: Install Go. go mod init. Hello World.
-
-Day 72 (Tue): Variables & Funcs
-
-Task: Learn := syntax. Multiple return values.
-
-Day 73 (Wed): Structs & Pointers
-
-Task: Define a Packet struct. Pass it by pointer *Packet.
-
-Day 74 (Thu): Interfaces
-
-Task: Learn implicit interfaces (Go's superpower).
-
-Day 75 (Fri): Error Handling
-
-Task: if err != nil. The Go mantra.
-
-Day 76 (Sat): RAID - "Port Scanner" (v1)
-
-Mission: Write a sequential port scanner in Go.
-
-Observation: Notice how slow it is scanning 100 ports one by one.
-
-Day 77 (Sun): SOPs
-
-Output: SOP-007-GOLANG-BASICS.md.
-
-WEEK 12: CONCURRENCY (The Killer Feature)
-
-Weekly Goal: Do 10,000 things at once.
-
-Day 78 (Mon): Goroutines
-
-Task: Launch 1,000 functions with go func().
-
-Day 79 (Tue): Channels
-
-Task: Send data between routines using <-.
-
-Day 80 (Wed): WaitGroups
-
-Task: Wait for all routines to finish.
-
-Day 81 (Thu): Worker Pools
-
-Task: Create a pool of 5 workers to handle 100 jobs.
-
-Day 82 (Fri): Context
-
-Task: Learn how to cancel a running process if it takes too long.
-
-Day 83 (Sat): RAID - "Port Scanner" (v2)
-
-Mission: Upgrade the scanner using Goroutines.
-
-Result: Watch it scan 100 ports instantly.
-
-Day 84 (Sun): Rest
-
-WEEK 13: SIGNALS (Networking)
-
-Weekly Goal: Build a Server.
-
-Day 85 (Mon): HTTP Server
-
-Task: Use net/http. Create a "Hello" web server.
-
-Day 86 (Tue): JSON API
-
-Task: Return a Struct as JSON.
-
-Day 87 (Wed): TCP Sockets
-
-Task: Listen on a raw port.
-
-Day 88 (Thu): WebSockets
-
-Task: Real-time communication.
-
-Day 89 (Fri): Middleware
-
-Task: Logging requests.
-
-Day 90 (Sat): PROJECT 3 - "FIELD RADIO"
-
-Mission: A Chat Server.
-
-Architecture: Go backend (WebSockets). Terminal Client (Connect via Netcat or Go client).
-
-Day 91 (Sun): Rest
-
-WEEKS 14-16: SECURITY (Red & Blue Team)
-
-Weekly Goal: Hack your own creations.
-
-Intel Drop (Resources):
-
-Udemy: Learn Ethical Hacking From Scratch (Zaid Sabih).
-
-YouTube: John Hammond.
-
-Lab: TryHackMe.com.
-
-Week 14 (Recon): Wireshark, Nmap, Packet Analysis.
-
-Week 15 (Exploits): SQL Injection (Labs), XSS (Labs).
-
-Week 16 (Hardening): Rate Limiting in Go. Input Sanitization in Rust.
-
-Day 112 (Sat): PROJECT 4 - "THE BREACH"
-
-Mission: Attack your own Week 13 Go Server. Find a flaw. Patch it.
-
-📜 PHASE 3: THE SCROLLS (Weeks 17-20)
-
-Objective: Intelligence & AI (Python).
-
-Intel Drop:
-
-Udemy: Complete Python Bootcamp.
-
-YouTube: Tech With Tim.
-
-WEEKS 17-18: PYTHON INTELLIGENCE
-
-(Condensed Overview)
-
-Week 17 (Basics): Syntax refresh. Lists/Dicts. pip. venv.
-
-Week 18 (Data): Pandas. Reading CSVs. Log parsing scripts.
-
-WEEKS 19-20: THE ORACLE (AI)
-
-Week 19 (APIs): OpenAI API / Ollama local API.
-
-Week 20 (Integration):
-
-Day 140 (Sat): PROJECT 5 - "THE ADVISOR"
-
-Mission: A Rust CLI tool that sends a prompt to a local Python script, which queries Ollama and returns an AI summary.
-
-📦 PHASE 4: LOGISTICS (Weeks 21-23)
-
-Objective: Deployment (DevOps).
-
-Intel Drop:
-
-Udemy: Docker & Kubernetes: The Practical Guide.
-
-YouTube: TechWorld with Nana.
-
-Week 21: Podman Containers. Writing Containerfiles.
-
-Week 22: Podman Compose. Orchestrating Go Server + DB.
-
-Week 23: GitHub Actions. CI/CD.
-
-Day 161 (Sat): PROJECT 6 - "AUTO-DEPLOY"
-
-Mission: Push code to GitHub -> GitHub builds the binary -> Releases it.
-
-🔍 PHASE 5: INSPECTOR GENERAL (Weeks 24-25)
-
-Objective: Quality Assurance.
-
-Week 24: Playwright Basics. E2E Testing.
-
-Week 25: Integration.
-
-Day 175 (Sat): PROJECT 7 - "THE ROBOT"
-
-Mission: Automated test suite that verifies your Triage App works before you can merge code.
-
-🧠 PHASE 6: PSYOPS (Weeks 26-27)
-
-Objective: Design & UX.
-
-Week 26: Visual Hierarchy. Typography.
-
-Week 27: Prototyping in Penpot.
-
-Day 189 (Sat): PROJECT 8 - "THE BLUEPRINT"
-
-Mission: Full High-Fidelity design for your final Capstone.
-
-🏆 PHASE 7: CAPSTONE (Week 28+)
-
-Objective: OPERATION IRON CLAD.
-
-Day 190+: Build the final SaaS Product.
-
-Tech Stack:
-
-Frontend: Svelte 5 + Tailwind.
-
-Backend: Rust (Core) + Go (Microservice).
-
-AI: Python Analysis.
-
-Deploy: Podman.
-
-Design: Custom Penpot UI.
-
-End of Schedule.
+Current Order: Return to Phase 1, Week 1, Day 3. Execute Vim Drills.
